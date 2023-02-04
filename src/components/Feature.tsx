@@ -10,8 +10,7 @@ export default function Feature({ Logo, title, description }: FeatureProps) {
         <Logo />
       </span>
       <h1 className="font-bold text-lg mt-4 mb-2">{title}</h1>
-      <p className="opacity-80 text-center px-10 text-sm whitespace-pre-wrap">
-        {" "}
+      <p className="opacity-80 text-center px-10 text-sm whitespace-pre-wrap lg:w-3/4">
         {description}
       </p>
     </div>

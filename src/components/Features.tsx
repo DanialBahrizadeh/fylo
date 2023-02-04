@@ -8,7 +8,10 @@ import {
 
 export default function Features() {
   return (
-    <div id="features" className="mt-24">
+    <div
+      id="features"
+      className="mt-24 lg:grid lg:grid-rows-2 lg:grid-cols-2 lg:mt-0 lg:relative lg:z-50 lg:px-32"
+    >
       <Feature
         Logo={IconAccessAnywhere}
         title={"Access your files, anywhere"}

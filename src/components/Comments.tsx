@@ -1,7 +1,10 @@
 import Comment from "./Comment";
 export default function Comments() {
   return (
-    <div id="team" className="mt-16 flex flex-col gap-5 items-center px-5">
+    <div
+      id="team"
+      className="mt-16 flex flex-col gap-5 items-center px-5 lg:flex-row lg:px-16"
+    >
       <Comment
         body="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
         name="Satish Patel"
